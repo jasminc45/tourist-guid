@@ -24,7 +24,7 @@ class HelloWorldCommand extends Command
     {
         $this
             ->setName('acme:hello')
-            ->setDescription('Hello World example command.')
+            ->setDescription('Hello example command.')
             ->addArgument('who', InputArgument::OPTIONAL, 'Who to greet.', 'World')
             ->setHelp(<<<EOF
 The <info>%command.name%</info> command greets somebody or everybody:
