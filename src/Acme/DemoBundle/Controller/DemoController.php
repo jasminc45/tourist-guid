@@ -46,7 +46,7 @@ class DemoController extends Controller
             // .. setup a message and send it
             // http://symfony.com/doc/current/cookbook/email.html
 
-            $request->getSession()->getFlashBag()->set('notice', 'Message sent!!!');
+            $request->getSession()->getFlashBag()->set('notice', 'Message sent!!');
 
             return new RedirectResponse($this->generateUrl('_demo'));
         }
