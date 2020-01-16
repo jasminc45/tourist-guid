@@ -44,6 +44,6 @@ EOF
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln(sprintf('Hello there <comment>%s</comment>!', $input->getArgument('who')));
-          
+        
     }
 }
