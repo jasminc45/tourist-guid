@@ -31,7 +31,7 @@ The <info>%command.name%</info> command greets somebody or everybody:
 
 <info>php %command.full_name%</info>
 
-The optional argument specifies who to greet:
+The optional arg specifies who to greet:
 
 <info>php %command.full_name%</info> Fabien
 EOF
